@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500;700&family=Fredoka:wght@500;600&display=swap');
+*,*:before,*:after{box-sizing:border-box;padding:0;margin:0;}
+html {text-size-adjust:none;-webkit-text-size-adjust:none;-moz-text-size-adjust:none;}
+:root {
+ --fontBody:'Fredoka', sans-serif;
+ --fontCode:'Fira Mono', monospace;
+}
+body {font-family:var(--fontBody);padding:20px 10px 10px 10px}
+p {margin-top:20px;}
+code:not(pre) {padding:0 4px;background:#0f172a;border-radius:2px;}
+code, pre{font-family:var(--fontCode);color:#fff;font-size:0.9em}
+pre {background:#020617;border-radius:2px;border-radius:3px;position:relative;padding-top:40px;margin:10px 0}
+pre code {background:#0f172a;display:block;overflow:auto;padding:16px;border-radius:0 0 3px 3px;line-height:20px}
+pre[data-language]:before {content:attr(data-language);display:inline-block;font-size:0.95em;height:40px;color:#fff;position:absolute;top:0;left:0;padding:0 16px;line-height:40px;border-bottom:1.5px solid #0b57cf;background:#0f172a}
+pre button {display:inline-block;border-radius:1px;height:20px;line-height:20px;position:absolute;top:10px;right:16px;border:none;font-size:0.95em;background:transparent;cursor:pointer}
+pre button svg {fill:none;width:20px;stroke:#fff;stroke-width:1.5;stroke-linecap:round:stroke-linejoin:round;}
+pre button span {display:inline-block;position:absolute;padding:0 4px;border-radius:2px;bottom:125%;left:50%;color:#fff;transform:translateX(-50%);background:#0b57cf;font-size:0.6em;transition:all.4s ease-in-out}
+pre button span::after {content:"";position:absolute;top: 100%; left:50%;  margin-left: -5px;border-width: 5px; border-style: solid;border-color: #0b57cf transparent transparent transparent;}
+pre button:hover span{visibility:visible;}
