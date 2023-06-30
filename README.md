@@ -1,7 +1,7 @@
 # HTML code snippet and copy code button
 
 [![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://github.com/zyone-idn/HTML-code-snippet-and-copy-code-button/blob/main/LICENSE)
-[![GitHub package version](https://img.shields.io/github/package-json/v/zyone-idn/HTML-code-snippet-and-copy-code-button.svg)](https://github.com/zyone-idn/HTML-code-snippet-and-copy-code-button)
+[![Developer](https://img.shields.io/badge/developer-Zyone%20Idn-blue.svg)](https://github.com/zyone-idn)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/zyone-idn/HTML-code-snippet-and-copy-code-button/blob/main/LICENSE)
 
 ## Demo
